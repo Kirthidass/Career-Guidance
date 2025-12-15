@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, BookOpen, ExternalLink, AlertCircle, RefreshCw, Loader2, Trophy, TrendingUp, MessageSquare } from "lucide-react";
+import { CheckCircle2, BookOpen, ExternalLink, RefreshCw, Loader2, Trophy, TrendingUp, MessageSquare } from "lucide-react";
 import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/context/AuthContext";
